@@ -1,5 +1,6 @@
 body {
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 
 .name {
@@ -8,6 +9,7 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -23,11 +25,26 @@ section {
     width: 80%;
 }
 
-.hire-me-button {
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-size: 700;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-big p {
+    padding-right: 100px;
 }
