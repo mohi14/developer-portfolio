@@ -49,6 +49,12 @@ h1 {
     padding-right: 100px;
 }
 
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .experience-part {
     width: 40%;
     margin-left: 5%;
